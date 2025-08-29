@@ -1,0 +1,25 @@
+{
+	"BUILD_DIR" : "E:/QTProgram/login/out/build/debug/login_autogen",
+	"CMAKE_BINARY_DIR" : "E:/QTProgram/login/out/build/debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "E:/QTProgram/login/out/build/debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "E:/QTProgram/login",
+	"CMAKE_SOURCE_DIR" : "E:/QTProgram/login",
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "E:/QTProgram/login/out/build/debug/login_autogen/include",
+	"INPUTS" : 
+	[
+		"E:/QTProgram/login/tmp_748272393604771840_1756210040864.svg",
+		"E:/QTProgram/login/1.svg",
+		"E:/QTProgram/login/tmp_748273079662882816_1756210204433.svg"
+	],
+	"LOCK_FILE" : "E:/QTProgram/login/out/build/debug/CMakeFiles/login_autogen.dir/AutoRcc_icons_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "icons" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_icons.cpp",
+	"RCC_EXECUTABLE" : "D:/QT_source/6.9.1/msvc2022_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "E:/QTProgram/login/out/build/debug/CMakeFiles/login_autogen.dir/AutoRcc_icons_EWIEGA46WW_Used.txt",
+	"SOURCE" : "E:/QTProgram/login/icons.qrc",
+	"VERBOSITY" : 0
+}

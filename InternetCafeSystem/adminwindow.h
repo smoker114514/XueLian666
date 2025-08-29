@@ -1,0 +1,4 @@
+#ifndef ADMINWINDOW_H
+#define ADMINWINDOW_H
+
+#endif // ADMINWINDOW_H
