@@ -346,6 +346,12 @@
 	"HEADERS" : 
 	[
 		[
+			"E:/QTProgram/login/mainwindow.h",
+			"MU",
+			"EWIEGA46WW/moc_mainwindow.cpp",
+			null
+		],
+		[
 			"E:/QTProgram/login/widget.h",
 			"MU",
 			"EWIEGA46WW/moc_widget.cpp",
@@ -424,6 +430,7 @@
 	"SOURCES" : 
 	[
 		[ "E:/QTProgram/login/main.cpp", "MU", null ],
+		[ "E:/QTProgram/login/mainwindow.cpp", "MU", null ],
 		[ "E:/QTProgram/login/widget.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],

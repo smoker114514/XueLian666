@@ -164,6 +164,7 @@ login_autogen/timestamp: \
 	D:/QT_source/6.9.1/mingw_64/include/QtGui/qkeysequence.h \
 	D:/QT_source/6.9.1/mingw_64/include/QtGui/qpaintdevice.h \
 	D:/QT_source/6.9.1/mingw_64/include/QtGui/qpalette.h \
+	D:/QT_source/6.9.1/mingw_64/include/QtGui/qpicture.h \
 	D:/QT_source/6.9.1/mingw_64/include/QtGui/qpixelformat.h \
 	D:/QT_source/6.9.1/mingw_64/include/QtGui/qpixmap.h \
 	D:/QT_source/6.9.1/mingw_64/include/QtGui/qpointingdevice.h \
@@ -173,6 +174,7 @@ login_autogen/timestamp: \
 	D:/QT_source/6.9.1/mingw_64/include/QtGui/qrgba64.h \
 	D:/QT_source/6.9.1/mingw_64/include/QtGui/qscreen.h \
 	D:/QT_source/6.9.1/mingw_64/include/QtGui/qscreen_platform.h \
+	D:/QT_source/6.9.1/mingw_64/include/QtGui/qtextdocument.h \
 	D:/QT_source/6.9.1/mingw_64/include/QtGui/qtgui-config.h \
 	D:/QT_source/6.9.1/mingw_64/include/QtGui/qtguiexports.h \
 	D:/QT_source/6.9.1/mingw_64/include/QtGui/qtguiglobal.h \
@@ -181,12 +183,21 @@ login_autogen/timestamp: \
 	D:/QT_source/6.9.1/mingw_64/include/QtGui/qvectornd.h \
 	D:/QT_source/6.9.1/mingw_64/include/QtGui/qwindowdefs.h \
 	D:/QT_source/6.9.1/mingw_64/include/QtGui/qwindowdefs_win.h \
+	D:/QT_source/6.9.1/mingw_64/include/QtWidgets/QLabel \
+	D:/QT_source/6.9.1/mingw_64/include/QtWidgets/QMainWindow \
 	D:/QT_source/6.9.1/mingw_64/include/QtWidgets/QMessageBox \
+	D:/QT_source/6.9.1/mingw_64/include/QtWidgets/QPushButton \
 	D:/QT_source/6.9.1/mingw_64/include/QtWidgets/QWidget \
+	D:/QT_source/6.9.1/mingw_64/include/QtWidgets/qabstractbutton.h \
 	D:/QT_source/6.9.1/mingw_64/include/QtWidgets/qdialog.h \
 	D:/QT_source/6.9.1/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
+	D:/QT_source/6.9.1/mingw_64/include/QtWidgets/qframe.h \
+	D:/QT_source/6.9.1/mingw_64/include/QtWidgets/qlabel.h \
+	D:/QT_source/6.9.1/mingw_64/include/QtWidgets/qmainwindow.h \
 	D:/QT_source/6.9.1/mingw_64/include/QtWidgets/qmessagebox.h \
+	D:/QT_source/6.9.1/mingw_64/include/QtWidgets/qpushbutton.h \
 	D:/QT_source/6.9.1/mingw_64/include/QtWidgets/qsizepolicy.h \
+	D:/QT_source/6.9.1/mingw_64/include/QtWidgets/qtabwidget.h \
 	D:/QT_source/6.9.1/mingw_64/include/QtWidgets/qtwidgets-config.h \
 	D:/QT_source/6.9.1/mingw_64/include/QtWidgets/qtwidgetsexports.h \
 	D:/QT_source/6.9.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -615,7 +626,10 @@ login_autogen/timestamp: \
 	E:/QTProgram/login/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/login_autogen/moc_predefs.h \
 	E:/QTProgram/login/icons.qrc \
 	E:/QTProgram/login/main.cpp \
+	E:/QTProgram/login/mainwindow.cpp \
+	E:/QTProgram/login/mainwindow.h \
 	E:/QTProgram/login/widget.cpp \
 	E:/QTProgram/login/widget.h \
+	E:/QTProgram/login/mainwindow.ui \
 	E:/QTProgram/login/widget.ui \
 	D:/QT_source/Tools/CMake_64/bin/cmake.exe

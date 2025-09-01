@@ -73,6 +73,14 @@ build CMakeFiles/login.dir/widget.cpp.obj: CXX_COMPILER__login_unscanned_Debug E
   OBJECT_DIR = CMakeFiles\login.dir
   OBJECT_FILE_DIR = CMakeFiles\login.dir
 
+build CMakeFiles/login.dir/mainwindow.cpp.obj: CXX_COMPILER__login_unscanned_Debug E$:/QTProgram/login/mainwindow.cpp || cmake_object_order_depends_target_login
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\login.dir\mainwindow.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IE:/QTProgram/login/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/login_autogen/include -isystem D:/QT_source/6.9.1/mingw_64/include/QtCore -isystem D:/QT_source/6.9.1/mingw_64/include -isystem D:/QT_source/6.9.1/mingw_64/mkspecs/win32-g++ -isystem D:/QT_source/6.9.1/mingw_64/include/QtWidgets -isystem D:/QT_source/6.9.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\login.dir
+  OBJECT_FILE_DIR = CMakeFiles\login.dir
+
 build CMakeFiles/login.dir/login_autogen/EWIEGA46WW/qrc_icons.cpp.obj: CXX_COMPILER__login_unscanned_Debug E$:/QTProgram/login/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/login_autogen/EWIEGA46WW/qrc_icons.cpp || cmake_object_order_depends_target_login
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\login.dir\login_autogen\EWIEGA46WW\qrc_icons.cpp.obj.d
@@ -89,7 +97,7 @@ build CMakeFiles/login.dir/login_autogen/EWIEGA46WW/qrc_icons.cpp.obj: CXX_COMPI
 #############################################
 # Link the executable login.exe
 
-build login.exe: CXX_EXECUTABLE_LINKER__login_Debug CMakeFiles/login.dir/login_autogen/mocs_compilation.cpp.obj CMakeFiles/login.dir/main.cpp.obj CMakeFiles/login.dir/widget.cpp.obj CMakeFiles/login.dir/login_autogen/EWIEGA46WW/qrc_icons.cpp.obj | D$:/QT_source/6.9.1/mingw_64/lib/libQt6Widgets.a D$:/QT_source/6.9.1/mingw_64/lib/libQt6Gui.a D$:/QT_source/6.9.1/mingw_64/lib/libQt6Core.a D$:/QT_source/6.9.1/mingw_64/lib/libQt6EntryPoint.a || login_autogen login_autogen_timestamp_deps
+build login.exe: CXX_EXECUTABLE_LINKER__login_Debug CMakeFiles/login.dir/login_autogen/mocs_compilation.cpp.obj CMakeFiles/login.dir/main.cpp.obj CMakeFiles/login.dir/widget.cpp.obj CMakeFiles/login.dir/mainwindow.cpp.obj CMakeFiles/login.dir/login_autogen/EWIEGA46WW/qrc_icons.cpp.obj | D$:/QT_source/6.9.1/mingw_64/lib/libQt6Widgets.a D$:/QT_source/6.9.1/mingw_64/lib/libQt6Gui.a D$:/QT_source/6.9.1/mingw_64/lib/libQt6Core.a D$:/QT_source/6.9.1/mingw_64/lib/libQt6EntryPoint.a || login_autogen login_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = D:/QT_source/6.9.1/mingw_64/lib/libQt6Widgets.a  D:/QT_source/6.9.1/mingw_64/lib/libQt6Gui.a  D:/QT_source/6.9.1/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  D:/QT_source/6.9.1/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -176,7 +184,7 @@ build login_autogen_timestamp_deps: phony
 #############################################
 # Utility command for login_autogen
 
-build login_autogen: phony CMakeFiles/login_autogen login_autogen/include/ui_widget.h login_autogen/timestamp login_autogen/mocs_compilation.cpp login_autogen_timestamp_deps
+build login_autogen: phony CMakeFiles/login_autogen login_autogen/include/ui_widget.h login_autogen/include/ui_mainwindow.h login_autogen/timestamp login_autogen/mocs_compilation.cpp login_autogen_timestamp_deps
 
 
 #############################################
@@ -202,7 +210,7 @@ build login_autogen/EWIEGA46WW/qrc_icons.cpp | ${cmake_ninja_workdir}login_autog
 #############################################
 # Phony custom command for CMakeFiles\login_autogen
 
-build CMakeFiles/login_autogen login_autogen/include/ui_widget.h | ${cmake_ninja_workdir}CMakeFiles/login_autogen ${cmake_ninja_workdir}login_autogen/include/ui_widget.h: phony login_autogen/timestamp || login_autogen_timestamp_deps
+build CMakeFiles/login_autogen login_autogen/include/ui_widget.h login_autogen/include/ui_mainwindow.h | ${cmake_ninja_workdir}CMakeFiles/login_autogen ${cmake_ninja_workdir}login_autogen/include/ui_widget.h ${cmake_ninja_workdir}login_autogen/include/ui_mainwindow.h: phony login_autogen/timestamp || login_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.

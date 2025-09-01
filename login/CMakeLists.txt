@@ -24,6 +24,9 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
         icons.qrc
+        mainwindow.h
+        mainwindow.cpp
+        mainwindow.ui
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET login APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

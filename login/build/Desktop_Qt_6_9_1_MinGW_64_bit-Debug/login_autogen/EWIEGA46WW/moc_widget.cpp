@@ -31,6 +31,63 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 QT_WARNING_DISABLE_GCC("-Wuseless-cast")
 namespace {
+struct qt_meta_tag_ZN16DragWidgetFilterE_t {};
+} // unnamed namespace
+
+template <> constexpr inline auto DragWidgetFilter::qt_create_metaobjectdata<qt_meta_tag_ZN16DragWidgetFilterE_t>()
+{
+    namespace QMC = QtMocConstants;
+    QtMocHelpers::StringRefStorage qt_stringData {
+        "DragWidgetFilter"
+    };
+
+    QtMocHelpers::UintData qt_methods {
+    };
+    QtMocHelpers::UintData qt_properties {
+    };
+    QtMocHelpers::UintData qt_enums {
+    };
+    return QtMocHelpers::metaObjectData<DragWidgetFilter, qt_meta_tag_ZN16DragWidgetFilterE_t>(QMC::MetaObjectFlag{}, qt_stringData,
+            qt_methods, qt_properties, qt_enums);
+}
+Q_CONSTINIT const QMetaObject DragWidgetFilter::staticMetaObject = { {
+    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN16DragWidgetFilterE_t>.stringdata,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN16DragWidgetFilterE_t>.data,
+    qt_static_metacall,
+    nullptr,
+    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN16DragWidgetFilterE_t>.metaTypes,
+    nullptr
+} };
+
+void DragWidgetFilter::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    auto *_t = static_cast<DragWidgetFilter *>(_o);
+    (void)_t;
+    (void)_c;
+    (void)_id;
+    (void)_a;
+}
+
+const QMetaObject *DragWidgetFilter::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *DragWidgetFilter::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN16DragWidgetFilterE_t>.strings))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int DragWidgetFilter::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    return _id;
+}
+namespace {
 struct qt_meta_tag_ZN6WidgetE_t {};
 } // unnamed namespace
 

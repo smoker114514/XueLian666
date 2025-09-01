@@ -1,0 +1,11 @@
+debug/adminwindow.o
+debug/database.o
+debug/loginwindow.o
+debug/main.o
+debug/MainWindow.o
+debug/userwindow.o
+debug/qrc_icons.o
+debug/moc_MainWindow.o
+debug/moc_adminwindow.o
+debug/moc_loginwindow.o
+debug/moc_userwindow.o
