@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>630</width>
-    <height>499</height>
+    <width>1000</width>
+    <height>750</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -30,13 +30,13 @@ QPushButton:pressed {
     background-color: #E8F4F8; /* 点击时更深色 */
 }</string>
   </property>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
-     <x>170</x>
-     <y>90</y>
-     <width>321</width>
-     <height>41</height>
+     <x>249</x>
+     <y>100</y>
+     <width>501</width>
+     <height>92</height>
     </rect>
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout">
@@ -44,8 +44,8 @@ QPushButton:pressed {
      <widget class="QPushButton" name="userLoginButton">
       <property name="minimumSize">
        <size>
-        <width>100</width>
-        <height>0</height>
+        <width>200</width>
+        <height>50</height>
        </size>
       </property>
       <property name="text">
@@ -70,8 +70,8 @@ QPushButton:pressed {
      <widget class="QPushButton" name="adminLoginButton">
       <property name="minimumSize">
        <size>
-        <width>100</width>
-        <height>0</height>
+        <width>200</width>
+        <height>50</height>
        </size>
       </property>
       <property name="text">
@@ -81,13 +81,13 @@ QPushButton:pressed {
     </item>
    </layout>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
-     <x>140</x>
-     <y>130</y>
-     <width>376</width>
-     <height>52</height>
+     <x>250</x>
+     <y>170</y>
+     <width>501</width>
+     <height>151</height>
     </rect>
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout_2">

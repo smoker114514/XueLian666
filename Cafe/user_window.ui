@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>511</width>
-    <height>353</height>
+    <width>1000</width>
+    <height>750</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -40,15 +40,15 @@ QPushButton {
   <widget class="QLabel" name="balanceLabel">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>20</y>
-     <width>151</width>
+     <x>150</x>
+     <y>30</y>
+     <width>201</width>
      <height>41</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <pointsize>10</pointsize>
+     <pointsize>13</pointsize>
     </font>
    </property>
    <property name="text">
@@ -61,10 +61,10 @@ QPushButton {
   <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>20</y>
-     <width>470</width>
-     <height>304</height>
+     <x>150</x>
+     <y>30</y>
+     <width>716</width>
+     <height>411</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout_2">
@@ -87,6 +87,12 @@ QPushButton {
      <layout class="QVBoxLayout" name="verticalLayout">
       <item>
        <layout class="QFormLayout" name="formLayout">
+        <property name="horizontalSpacing">
+         <number>49</number>
+        </property>
+        <property name="verticalSpacing">
+         <number>10</number>
+        </property>
         <item row="0" column="0">
          <widget class="QPushButton" name="rechargeButton">
           <property name="sizePolicy">
@@ -97,7 +103,7 @@ QPushButton {
           </property>
           <property name="minimumSize">
            <size>
-            <width>230</width>
+            <width>330</width>
             <height>0</height>
            </size>
           </property>
@@ -116,7 +122,7 @@ QPushButton {
           </property>
           <property name="minimumSize">
            <size>
-            <width>230</width>
+            <width>330</width>
             <height>0</height>
            </size>
           </property>
@@ -135,7 +141,7 @@ QPushButton {
           </property>
           <property name="minimumSize">
            <size>
-            <width>230</width>
+            <width>330</width>
             <height>0</height>
            </size>
           </property>
@@ -154,7 +160,7 @@ QPushButton {
           </property>
           <property name="minimumSize">
            <size>
-            <width>230</width>
+            <width>330</width>
             <height>0</height>
            </size>
           </property>
@@ -195,6 +201,19 @@ QPushButton {
      </layout>
     </item>
    </layout>
+  </widget>
+  <widget class="QPushButton" name="chatButton">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>137</y>
+     <width>111</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>智能客服</string>
+   </property>
   </widget>
  </widget>
  <resources/>

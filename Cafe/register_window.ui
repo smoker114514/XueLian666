@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>511</width>
-    <height>353</height>
+    <width>1000</width>
+    <height>750</height>
    </rect>
   </property>
   <property name="font">
@@ -30,8 +30,9 @@ QLineEdit {
     border: 1px solid #DDD;
     border-radius: 4px;
     padding: 6px 10px;
-    font-size: 14px;
+    font-size: 18px;
     background-color: white;
+	color: rgb(0, 0, 0);
 }
 QLineEdit:focus {
     border-color: #2C7AD6; /* 焦点时蓝色边框，明确交互状态 */
@@ -72,8 +73,8 @@ QLabel#label_6 {
   <widget class="QLabel" name="label_6">
    <property name="geometry">
     <rect>
-     <x>50</x>
-     <y>10</y>
+     <x>330</x>
+     <y>50</y>
      <width>401</width>
      <height>31</height>
     </rect>
@@ -90,13 +91,13 @@ QLabel#label_6 {
     <set>Qt::AlignmentFlag::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
-     <x>40</x>
-     <y>50</y>
-     <width>421</width>
-     <height>301</height>
+     <x>200</x>
+     <y>110</y>
+     <width>641</width>
+     <height>411</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout_3">
@@ -198,6 +199,12 @@ QLabel#label_6 {
            </sizepolicy>
           </property>
           <property name="inputMask">
+           <string/>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="placeholderText">
            <string>请输入有效电话</string>
           </property>
          </widget>
@@ -225,6 +232,12 @@ QLabel#label_6 {
        <layout class="QHBoxLayout" name="horizontalLayout">
         <item>
          <widget class="QPushButton" name="registerButton">
+          <property name="minimumSize">
+           <size>
+            <width>90</width>
+            <height>50</height>
+           </size>
+          </property>
           <property name="text">
            <string>注册</string>
           </property>
@@ -232,6 +245,12 @@ QLabel#label_6 {
         </item>
         <item>
          <widget class="QPushButton" name="cancelButton">
+          <property name="minimumSize">
+           <size>
+            <width>90</width>
+            <height>50</height>
+           </size>
+          </property>
           <property name="text">
            <string>取消</string>
           </property>

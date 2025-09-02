@@ -1,4 +1,4 @@
-QT       += core gui sql
+QT       += core gui sql network
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -10,7 +10,9 @@ CONFIG += c++17
 
 SOURCES += \
     admin_window.cpp \
+    chat_window.cpp \
     database_manager.cpp \
+    deepseek_client.cpp \
     login_window.cpp \
     main.cpp \
     main_window.cpp \
@@ -19,7 +21,9 @@ SOURCES += \
 
 HEADERS += \
     admin_window.h \
+    chat_window.h \
     database_manager.h \
+    deepseek_client.h \
     login_window.h \
     main_window.h \
     register_window.h \
@@ -27,6 +31,7 @@ HEADERS += \
 
 FORMS += \
     admin_window.ui \
+    chat_window.ui \
     login_window.ui \
     main_window.ui \
     register_window.ui \
