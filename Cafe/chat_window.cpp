@@ -15,7 +15,7 @@ ChatWindow::ChatWindow(QWidget *parent)
     setWindowTitle("智能客服");
     initUI();
     initConnections();
-    deepSeekClient->setApiKey("sk-ac79ce872af1468eaab16b788a7790b3");
+    deepSeekClient->setApiKey("///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////");
 }
 
 ChatWindow::~ChatWindow() {
