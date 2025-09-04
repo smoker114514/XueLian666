@@ -5,6 +5,7 @@
 #include "login_window.h"
 #include "register_window.h"
 
+
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
@@ -22,6 +23,7 @@ private slots:
 
     // 点击管理员登录按钮
     void on_adminLoginButton_clicked();
+
 
     // 从登录/注册窗口返回
     void on_returnToMain();

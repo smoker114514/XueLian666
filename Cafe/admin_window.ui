@@ -6,20 +6,20 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>499</width>
-    <height>541</height>
+    <width>1000</width>
+    <height>750</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
-     <x>90</x>
-     <y>50</y>
-     <width>258</width>
-     <height>480</height>
+     <x>130</x>
+     <y>40</y>
+     <width>751</width>
+     <height>701</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout">
@@ -27,6 +27,18 @@
      <layout class="QFormLayout" name="formLayout">
       <item row="0" column="0">
        <widget class="QPushButton" name="queryMachinesButton">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>180</width>
+          <height>40</height>
+         </size>
+        </property>
         <property name="text">
          <string>查询机器记录</string>
         </property>
@@ -34,6 +46,12 @@
       </item>
       <item row="0" column="1">
        <widget class="QPushButton" name="startMachineButton">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>40</height>
+         </size>
+        </property>
         <property name="text">
          <string>启动机器</string>
         </property>
@@ -41,6 +59,18 @@
       </item>
       <item row="1" column="0">
        <widget class="QPushButton" name="queryRechargesButton">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>180</width>
+          <height>40</height>
+         </size>
+        </property>
         <property name="text">
          <string>查询充值记录</string>
         </property>
@@ -48,6 +78,12 @@
       </item>
       <item row="1" column="1">
        <widget class="QPushButton" name="shutdownMachineButton">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>40</height>
+         </size>
+        </property>
         <property name="text">
          <string>关闭机器</string>
         </property>
@@ -55,6 +91,18 @@
       </item>
       <item row="2" column="0">
        <widget class="QPushButton" name="queryUsersButton">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>180</width>
+          <height>40</height>
+         </size>
+        </property>
         <property name="text">
          <string>查询用户</string>
         </property>
@@ -62,6 +110,12 @@
       </item>
       <item row="2" column="1">
        <widget class="QPushButton" name="forceLogoutButton">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>40</height>
+         </size>
+        </property>
         <property name="text">
          <string>强制下机</string>
         </property>
@@ -69,6 +123,18 @@
       </item>
       <item row="3" column="0">
        <widget class="QPushButton" name="exitButton">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>180</width>
+          <height>40</height>
+         </size>
+        </property>
         <property name="text">
          <string>退出</string>
         </property>

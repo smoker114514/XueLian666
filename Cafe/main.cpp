@@ -1,8 +1,8 @@
 #include "main_window.h"
 #include <QApplication>
 #include "database_manager.h"
-#include"deepseek_client.h"
-#include"chat_window.h"
+
+
 
 int main(int argc, char *argv[])
 {
@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
     // 初始化30台机器
     DatabaseManager::getInstance().initMachines(30);
 
-    ChatWindow w;
+    MainWindow w;
     w.show();
 
     return a.exec();

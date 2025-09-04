@@ -74,6 +74,8 @@ UserWindow::UserWindow(QWidget *parent)
         }
     });
     statusTimer->stop(); // 初始不启动，避免提前触发
+    connect(ui->openChatButton, &QPushButton::clicked,
+            this, &UserWindow::onOpenChatButtonClicked);
 }
 
 UserWindow::~UserWindow() {
@@ -237,4 +239,22 @@ void UserWindow::showEvent(QShowEvent *event) {
     statusTimer->start(30000);
     // 立即刷新一次状态，避免初始空白
     refreshMachineStatus();
+}
+void UserWindow::onOpenChatButtonClicked() {
+    if (chatWindow == nullptr) {
+        chatWindow = new ChatWindow(this); // 创建ChatWindow（父窗口为UserWindow）
+        // 连接ChatWindow的“返回用户窗口”信号到当前槽函数
+        connect(chatWindow, &ChatWindow::returnToUserWindow,
+                this, &UserWindow::onChatWindowReturn);
+        // 传递当前用户ID给ChatWindow
+        chatWindow->setUserId(this->userId);
+    }
+    chatWindow->show(); // 显示聊天窗口
+}
+
+// 新增：处理聊天窗口返回的实现
+void UserWindow::onChatWindowReturn() {
+    if (chatWindow != nullptr) {
+        chatWindow->hide(); // 隐藏聊天窗口，回到UserWindow
+    }
 }

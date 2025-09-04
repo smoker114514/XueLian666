@@ -64,7 +64,7 @@ QPushButton {
      <x>150</x>
      <y>30</y>
      <width>716</width>
-     <height>411</height>
+     <height>601</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout_2">
@@ -185,6 +185,12 @@ QPushButton {
         <property name="columnCount">
          <number>6</number>
         </property>
+        <attribute name="horizontalHeaderMinimumSectionSize">
+         <number>22</number>
+        </attribute>
+        <attribute name="verticalHeaderMinimumSectionSize">
+         <number>13</number>
+        </attribute>
         <row/>
         <row/>
         <row/>
@@ -202,7 +208,7 @@ QPushButton {
     </item>
    </layout>
   </widget>
-  <widget class="QPushButton" name="chatButton">
+  <widget class="QPushButton" name="openChatButton">
    <property name="geometry">
     <rect>
      <x>9</x>

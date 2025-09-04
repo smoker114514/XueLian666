@@ -4,6 +4,7 @@
 #include <QWidget>
 #include <QTimer>
 #include "database_manager.h"
+#include "chat_window.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class UserWindow; }
@@ -45,6 +46,9 @@ private slots:
 
     // 选择机器
     void on_machineSelected(int machineId);
+    void onOpenChatButtonClicked();
+    // 新增：处理聊天窗口返回的槽函数
+    void onChatWindowReturn();
 
 private:
     Ui::UserWindow *ui;
@@ -52,5 +56,6 @@ private:
     int selectedMachineId; // 选中的机器ID
     bool isUsingMachine; // 是否正在使用机器
     QTimer* statusTimer; // 状态刷新定时器
+    ChatWindow* chatWindow = nullptr;
 };
 #endif // USER_WINDOW_H

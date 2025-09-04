@@ -27,7 +27,7 @@ private slots:
 private:
     QNetworkAccessManager *manager; // 网络请求管理器
     QString apiKey;                 // API密钥
-    const QString apiUrl = "https://api.deepseek.com"; // API端点
+    const QString apiUrl = "https://api.deepseek.com/chat/completions"; // 正确端点 // API端点
 };
 
 #endif // DEEPSEEK_CLIENT_H

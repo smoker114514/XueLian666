@@ -35,8 +35,31 @@ void DeepSeekClient::sendMessage(const QString &prompt) {
     QJsonObject jsonBody;
     jsonBody["model"] = "deepseek-chat"; // 模型名称
     jsonBody["stream"] = false;         // 非流式响应
-
     QJsonArray messages;
+
+    // 系统提示：设定模型为“网吧智能客服”，定义场景规则
+    QJsonObject systemMsg;
+    systemMsg["role"] = "system";
+    systemMsg["content"] = R"(
+        你是一家网吧的智能客服，需要解答用户关于以下场景的问题：
+        1. 网吧机器使用（开机、关机、上机、下机流程）；
+        2. 账户充值、余额查询；
+        3. 机器故障反馈、网络问题等。
+        4. 网吧费用为0.1人民币/分钟。
+        5. 充值可以在登录后的用户窗口进行。
+        6. 前台有可乐雪碧冰红茶，咖啡等饮品，有薯片登零食。
+        7. 当你无法回答准确答案的问题，你也可以脱离暂时身份，回答用户问题。
+        请用简洁、口语化的中文回答，保持客服的友好语气。
+    )";
+    messages.append(systemMsg);
+
+    // 用户消息：原prompt
+    QJsonObject userMsg;
+    userMsg["role"] = "user";
+    userMsg["content"] = prompt;
+    messages.append(userMsg);
+
+    //QJsonArray messages;
     QJsonObject message;
     message["role"] = "user";
     message["content"] = prompt;
